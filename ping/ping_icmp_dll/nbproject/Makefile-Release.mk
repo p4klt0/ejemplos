@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/_ext/1141531604/ms_icmp.o
+	${OBJECTDIR}/_ext/1000073650/ms_icmp.o
 
 
 # C Compiler Flags
@@ -62,10 +62,10 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ping_icmp_dll.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ping_icmp_dll ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/_ext/1141531604/ms_icmp.o: nbproject/Makefile-${CND_CONF}.mk /C/Documents\ and\ Settings/pmonfort/Mis\ documentos/Prjs/ping/ping_icmp_dll/ms_icmp.c 
-	${MKDIR} -p ${OBJECTDIR}/_ext/1141531604
+${OBJECTDIR}/_ext/1000073650/ms_icmp.o: nbproject/Makefile-${CND_CONF}.mk /C/Documents\ and\ Settings/pmonfort/Mis\ documentos/Prjs/ejemplos/ping/ping_icmp_dll/ms_icmp.c 
+	${MKDIR} -p ${OBJECTDIR}/_ext/1000073650
 	${RM} $@.d
-	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1141531604/ms_icmp.o /C/Documents\ and\ Settings/pmonfort/Mis\ documentos/Prjs/ping/ping_icmp_dll/ms_icmp.c
+	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000073650/ms_icmp.o /C/Documents\ and\ Settings/pmonfort/Mis\ documentos/Prjs/ejemplos/ping/ping_icmp_dll/ms_icmp.c
 
 # Subprojects
 .build-subprojects:

@@ -4,8 +4,8 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ping/raw_ping/ip_checksum.h</itemPath>
-      <itemPath>C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ping/raw_ping/rawping.h</itemPath>
+      <itemPath>C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ejemplos/ping/raw_ping/ip_checksum.h</itemPath>
+      <itemPath>C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ejemplos/ping/raw_ping/rawping.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -14,9 +14,9 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ping/raw_ping/ip_checksum.cpp</itemPath>
+      <itemPath>C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ejemplos/ping/raw_ping/ip_checksum.cpp</itemPath>
       <itemPath>raw_ping_driver.cpp</itemPath>
-      <itemPath>C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ping/raw_ping/rawping.cpp</itemPath>
+      <itemPath>C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ejemplos/ping/raw_ping/rawping.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -47,22 +47,22 @@
           <commandLine>-static-libstdc++ -static-libgcc</commandLine>
         </linkerTool>
       </compileType>
-      <item path="C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ping/raw_ping/ip_checksum.cpp"
+      <item path="C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ejemplos/ping/raw_ping/ip_checksum.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ping/raw_ping/ip_checksum.h"
+      <item path="C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ejemplos/ping/raw_ping/ip_checksum.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ping/raw_ping/rawping.cpp"
+      <item path="C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ejemplos/ping/raw_ping/rawping.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ping/raw_ping/rawping.h"
+      <item path="C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ejemplos/ping/raw_ping/rawping.h"
             ex="false"
             tool="3"
             flavor2="0">
@@ -97,22 +97,22 @@
           <commandLine>-static-libstdc++ -static-libgcc</commandLine>
         </linkerTool>
       </compileType>
-      <item path="C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ping/raw_ping/ip_checksum.cpp"
+      <item path="C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ejemplos/ping/raw_ping/ip_checksum.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ping/raw_ping/ip_checksum.h"
+      <item path="C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ejemplos/ping/raw_ping/ip_checksum.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ping/raw_ping/rawping.cpp"
+      <item path="C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ejemplos/ping/raw_ping/rawping.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ping/raw_ping/rawping.h"
+      <item path="C:/Documents and Settings/pmonfort/Mis documentos/Prjs/ejemplos/ping/raw_ping/rawping.h"
             ex="false"
             tool="3"
             flavor2="0">
