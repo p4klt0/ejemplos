@@ -1,12 +1,12 @@
 /* 
- * File:   net.h
+ * File:   class_2_dll.h
  * Author: pmonfort
  *
  * Created on 3 de octubre de 2013, 17:15
  */
 
-#ifndef NETUTILS_H
-#define	NETUTILS_H
+#ifndef CLASS_2_DLL_H
+#define	CLASS_2_DLL_H
 
 #if defined DLL_EXPORT
 #define DECLDIR __declspec(dllexport)
@@ -16,17 +16,16 @@
 
 #include "class_2_dll_interface.h"
 
-extern "C" class DECLDIR netutils : public netUtilsIface { //Exportamos la clase
+extern "C" class DECLDIR class_2_dll : public class_2_dll_interface { //Exportamos la clase
 public:
     //Propiedades
 
     //Métodos
-    netutils();
-    netutils(const netutils& orig);
-    virtual ~netutils();
+    class_2_dll();
+    class_2_dll(const class_2_dll& orig);
+    virtual ~class_2_dll();
 
     void prueba();
-    int initialize(const char *);
 private:
     //Propiedades
 
@@ -34,12 +33,12 @@ private:
     void init();
 };
 
-extern "C" DECLDIR netutils * CreateNetObjectInstace() {
-    return new netutils();
+extern "C" DECLDIR class_2_dll * CreateNetObjectInstace() {
+    return new class_2_dll();
 }
 
-extern "C" DECLDIR void ReleaseNetObject(netutils * object) {
+extern "C" DECLDIR void ReleaseNetObject(class_2_dll * object) {
     delete object;
 }
 
-#endif	/* NET_H */
+#endif	/* CLASS_2_DLL_H */
