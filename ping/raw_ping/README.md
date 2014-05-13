@@ -1,0 +1,4 @@
+ping
+====
+
+Ejemplos de ping
